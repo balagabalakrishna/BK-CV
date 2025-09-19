@@ -23,6 +23,7 @@ export const DATA = {
     "JavaScript",
     "pandas",
     "NumPy",
+    'Java',
     "Matplotlib",
     "Seaborn",
     "Scikit-learn",
