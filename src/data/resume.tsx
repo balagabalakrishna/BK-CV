@@ -2,42 +2,53 @@ import { Icons } from "@/components/icons";
 import { HomeIcon, NotebookIcon } from "lucide-react";
 
 export const DATA = {
-  name: "Bala Krishna  ",
-  initials: "AS",
+  name: "Krishna  ",
+  initials: "balaga",
   url: "https://cv-pink-two.vercel.app/",
-  location: "Mumbai , IN",
+  location: "HYDERABAD,TG",
   // locationLink: "https://www.google.com/maps/place/sanfrancisco",
   description:
-    "Software Engineer turned Entrepreneur. I love building things and helping people. Very active on Twitter.",
-  summary: ` Full Stack Engineer building fast, functional web experiences with Next.js, TS, Postgres, Framer Motion. Think technical precision meets creative problem-solving.
-
-I craft premium landing pages in my free time—most of them free because I'm generous like that. Currently working on some secret app, learning new technology because apparently I don't sleep enough.
-
-And for fun? State-level boxer. Gold and Bronze. Bringing that same discipline (and punchline) to code.`,
-  avatarUrl: "/p2.png",
+    "Software Engineer turned Entrepreneur. I love building things and helping people.",
+  summary: ` A results-oriented Software Developer with a focus on backend engineering and AI integration. I leverage my expertise in Python, Flask, and modern APIs to build robust applications that solve real problems. My experience includes leading a team to develop a multi-LLM response analysis tool and creating an AI-powered semantic search engine. I am passionate about harnessing the power of data and automation to create efficient and impactful software.`,
+  avatarUrl: "\krishn new.jpg",
   skills: [
-    "C++",
-    "JWT",
+    "Python",
+    "SQL",
+    "Product Management",
+    "Flask",
+    "Natural Language Processing (NLP)",
+    "Cloud Computing (AWS, GCP)",
+    "HTML",
+    "CSS",
+    "JavaScript",
+    "pandas",
+    "NumPy",
+    "Matplotlib",
+    "Seaborn",
+    "Scikit-learn",
+    "Power BI",
+    "Prompt Engineering",
     "AWS",
+    "Git",
   ],
   navbar: [
     { href: "/", icon: HomeIcon, label: "Home" },
     // { href: "/blog", icon: NotebookIcon, label: "Blog" },
   ],
   contact: {
-    email: "singhashirwad2003@gmail.com |",
-    tel: "+918421933430",
+    email: " balagabalakrishna0001@gmail.com |",
+    tel: "+91 9010108221",
     social: {
       GitHub: {
         name: "GitHub",
-        url: "https://github.com/Ethan4582",
+        url: "https://github.com/balagabalakrishna",
         icon: Icons.github,
 
         navbar: true,
       },
       LinkedIn: {
         name: "LinkedIn",
-        url: "https://www.linkedin.com/in/ashirwad08singh/",
+        url: "https://www.linkedin.com/in/bala-krishna-balaga-bbaa13240",
         icon: Icons.linkedin,
 
         navbar: true,
@@ -45,7 +56,7 @@ And for fun? State-level boxer. Gold and Bronze. Bringing that same discipline (
      
       Resume: {
         name: "Resume",
-        url: "https://drive.google.com/file/d/1389lMAKrxu8uQrAlWMFkvSl_ANu2C2MV/view?usp=sharing",
+        url: "https://drive.google.com/file/d/1aAvEOAsflnGApSEFvO_s87GFqhMJJ7gn/view?usp=drivesdk",
         icon: NotebookIcon,
         navbar: true,
       },
@@ -57,64 +68,254 @@ And for fun? State-level boxer. Gold and Bronze. Bringing that same discipline (
     {
       school: "Vit Bhopal University",
       href: "https://vitbhopal.ac.in/",
-      degree: "B.Tech in Computer Science (Cyber Security and Digital Forensics)",
+      degree: "B.Tech in Computer Science (Cloud Computing and Automation)",
       logoUrl: "/VIT.png",
       start: "2022",
       end: "2026",
     },
      {
-      school: "Relaince Foundation ",
-      href: "https://www.rfs.edu.in/Lodhivali-EM/",
+      school: "Sri chaitanya jr college",
+      href: "https://srichaitanya.net/",
       degree: "Class 12 ",
-      logoUrl: "/R3.png",
-      start: "2019",
-      end: "2021",
+      
+      logoUrl: "https://www.deccanchronicle.com/h-upload/2024/09/09/1839673-srica.jpg",
+      start: "2020",
+      end: "2022",
     },
     {
-      school: "Yak Public School",
-      href: "https://yakschool.com/",
+      school: "Sri chaitanya high school",
+      href: "https://srichaitanyaschool.net/",
+      
       degree: "Class 10 ",
-      logoUrl: "/49.png",
-      start: "2017",
-      end: "2019",
+      logoUrl: "https://www.deccanchronicle.com/h-upload/2024/09/09/1839673-srica.jpg",
+      start: "2019",
+      end: "2020",
     },
 
   ],
   projects : [
     {
- "title": "RepoSense",
+ "title": "CODE NEST - Code Search, Connected by AI.",
  "href": "https://reposense.framer.website/",
  "dates": "August 2025 ",
  "active": true,
- "type": "fullstack",
- "description": "RepoSense transforms GitHub repositories into intelligent, conversational workspaces. Upload any repo and get AI-powered file summaries, natural language Q&A about your codebase, meeting transcription with issue extraction, and team collaboration features.",
+ "type": "AI",
+ "description": "Go beyond text matching. Use AI-powered semantic search to explore your codebase by purpose and functionality, making it effortless to discover how to implement a feature without knowing the exact naming convention.",
  "technologies": [
-   "Next.js",
-   "TypeScript",
-   "PostgreSQL",
-   "Prisma",
-   "TailwindCSS",
-   "Gemini AI",
-   "LangChain",
-   "Hugging Face",
-   "Assembly.AI",
-   "Cloudinary",
-   "Stripe",
-   "Neon "
+   "Python",
+   "API",
+   "HTML",
+    "CSS",
+    "Streamlit",
+    "FAISS",
+    "GEMINI AI"
+  
  ],
+ 
  links: [
    {
      type: "Website",
-     href: "https://reposense.framer.website/",
+     href: " ",
      icon: <Icons.globe className="size-3" />
    },
    {
      type: "Source",
-     href: "https://github.com/Ethan4582/RepoSense",
+     href: "https://github.com/balagabalakrishna/CODE-SNIPPET-SEARCH-",
      icon: <Icons.github className="size-3" />
    }
  ],
- image: "/79.png",
+ image: "/Screenshot 2025-09-19 151932.png",
+ video: ""
+},
+
+
+  {
+ "title": "Blinkit Sales Analysis and Time Series Forecasting",
+ "href": "https://reposense.framer.website/",
+ "dates": "August 2025 ",
+ "active": true,
+ "type": "AI",
+ "description": "This project involved analyzing historical sales data to build a time series forecasting model that predicts future product demand. By identifying key trends and seasonal patterns, the model provides Blinkit with actionable insights to optimize inventory management, reduce waste, and ensure product availability for customers.",
+ "technologies": [
+   "Python",
+   "Pandas",
+   "EXCEL", 
+   "Numpy",
+   "Seaborn",
+   "Scikit-learn",
+   "HTML",
+    "CSS",
+    "Streamlit",
+    "XG-BOOST",
+    "Power BI"
+  
+  
+ ],
+ 
+ links: [
+   {
+     type: "Website",
+     href: " ",
+     icon: <Icons.globe className="size-3" />
+   },
+   {
+     type: "Source",
+     href: "https://github.com/balagabalakrishna/CODE-SNIPPET-SEARCH-",
+     icon: <Icons.github className="size-3" />
+   }
+ ],
+ image: "/Screenshot 2025-09-19 153043.png",
+ video: ""
+},
+
+
+  {
+ "title": "Bharat KYC - Accessible KYC Solution for All",
+ "href": "https://reposense.framer.website/",
+ "dates": " upcoming ",
+ "active": true,
+ "type": "AI",
+ "description": "Spearheaded a project management initiative to build an accessible KYC solution tailored for low-connectivity environments and users with varying digital literacy. My role involved defining project scope, managing the product backlog, prioritizing user-centric features like voice-assisted navigation and offline functionality, and ensuring on-time delivery. The project successfully enhanced financial inclusion by making digital verification processes more accessible.",
+ "technologies": [
+   "HTML",
+    "CSS",
+    "JavaScript",
+    "React",
+    " Tailwind CSS",
+    "MY SQL",
+    " Google Vision API (Online)",
+    "Web Speech API",
+    "AWS"
+  
+ ],
+ 
+ links: [
+   {
+     type: "Website",
+     href: " ",
+     icon: <Icons.globe className="size-3" />
+   },
+   {
+     type: "Source",
+     href: "https://github.com/balagabalakrishna/lightweight-kyc_bharat-product-design-",
+     icon: <Icons.github className="size-3" />
+   }
+ ],
+ image: "/Screenshot 2025-09-19 153403.png",
+ video: ""
+},
+
+
+
+  {
+ "title": "Land Gateway - Hyderabad's Direct Real Estate Portal",
+ "href": "https://reposense.framer.website/",
+ "dates": "August 2025 ",
+ "active": true,
+ "type": "AI",
+ "description": "Land Gateway is a direct-to-owner real estate platform helping users find their dream home or plot in Hyderabad without brokerage fees. We connect buyers directly with verified property dealers and owners, acting as a secure middleman to ensure trusted and transparent transactions.",
+ "technologies": [
+   "HTML",
+     "CSS",
+      "JavaScript", 
+      "React",
+      "Google Maps API " ,
+      " Python",
+      "Flask",
+      "SQLite",
+      " WhatsApp Business API ",
+      "Vercel"
+ ],
+ 
+ links: [
+   {
+     type: "Website",
+     href: " ",
+     icon: <Icons.globe className="size-3" />
+   },
+   {
+     type: "Source",
+     href: "/Screenshot 2025-09-19 153733.png",
+     icon: <Icons.github className="size-3" />
+   }
+ ],
+ image: "/Screenshot 2025-09-19 153733.png",
+ video: ""
+},
+
+  {
+ "title": "Rank MIND - A Multiple LLM Models response analysis tool",
+ "href": "https://reposense.framer.website/",
+ "dates": "August 2025 ",
+ "active": true,
+ "type": "Fullstack",
+ "description": "RankMind AI is a streamlined web application that empowers users to instantly compare responses from five leading AI models—including GPT-4, Gemini, and Llama 3.1—side-by-side. It intelligently ranks the best output based on accuracy and relevance, cutting through the noise to deliver the most reliable answer for any query.",
+ "technologies": [
+   "Python",
+   "API",
+   "FLASK",
+    "HTML",
+    "CSS",
+    "JavaScript",
+    "Gemini AI",
+    "NVIDIA LLM",
+    "Cohere",
+    "Deepseek",
+    "LLM as Router"
+    
+  
+ ],
+ 
+ links: [
+   {
+     type: "Website",
+     href: " ",
+     icon: <Icons.globe className="size-3" />
+   },
+   {
+     type: "Source",
+     href: "https://github.com/balagabalakrishna/CODE-SNIPPET-SEARCH-",
+     icon: <Icons.github className="size-3" />
+   }
+ ],
+ image: "/rank mind concept.jpg",
+ video: ""
+},
+  
+
+ {
+ "title": "Aura - Suggests a helpful presence that's always around you.",
+ "href": "https://reposense.framer.website/",
+ "dates": "August 2025 ",
+ "active": true,
+ "type": "AI",
+ "description": "Chat Assistant is a conversational AI partner built with the Gemini API, designed to be your go-to for daily tasks. It helps you draft emails, get homework help, brainstorm ideas, and plan your day, all through a simple and intuitive chat interface. It's a smart, responsive tool that makes productivity effortless.",
+ "technologies": [
+   "Google Gemini API",
+   "Python",
+   "Flask",
+   "HTML",
+    "CSS",
+    "JavaScript",
+    "RESTful API",
+    "vercel",
+    "SQL lite"
+  
+ ],
+ 
+ links: [
+   {
+     type: "Website",
+     href: " ",
+     icon: <Icons.globe className="size-3" />
+   },
+   {
+     type: "Source",
+     href: "https://github.com/balagabalakrishna/CODE-SNIPPET-SEARCH-",
+     icon: <Icons.github className="size-3" />
+   }
+ ],
+ image: "/project aura.jpg",
  video: ""
 },
   
@@ -139,68 +340,42 @@ And for fun? State-level boxer. Gold and Bronze. Bringing that same discipline (
   certifications: [
 
   {
-    Issued: "Oracle Cloud",
-    href: "https://catalog-education.oracle.com/ords/certview/sharebadge?id=53916C63D6D95CDA8844D6F4D45BA3BF012996FFC4AE266488BF9A691C60A401",
-    title: "Oracle Certified Foundations Associate",
-    logoUrl: "https://brm-workforce.oracle.com/pdf/certview/images/OCI25FNDCFAV1.png",
+    Issued: "ETHNUS",
+    href: "https://drive.google.com/file/d/1g7JKFtyauL4IFXs43kKRfh8DyGLTxLj0/view?usp=drivesdk",
+    title: "AWS Solution Architect",
+    logoUrl: "\Screenshot 2025-09-19 142010.png",
     date: "August 2025",
     description: " It validates core Oracle Cloud Infrastructure knowledge.Relevant for technical and non-technical roles, including development, procurement, and management."
   },
   {
-Issued: "Oracle Cloud",
-href: "https://catalog-education.oracle.com/pls/certview/sharebadge?id=B1753AAEE7A384D8B59BF091DBE43BAC336854F8D07BB724892054A897484010",
-title: "Oracle AI Vector Search Certified Professional",
-logoUrl: "https://brm-workforce.oracle.com/pdf/certview/images/DB23AIOCP.png",
+Issued: "ETHNUS",
+href: "https://drive.google.com/file/d/1Kkq8WfpLLyAO3oNwMaUmye2E1FDPwumK/view?usp=drivesdk",
+title: "MERN FULL-STACK DEVELOPER",
+logoUrl: "\Screenshot 2025-09-19 142102.png",
 date: "September 2025",
 description: "It validates expertise in using Oracle Database 23ai for AI-driven applications like vector searches and RAG. Designed for DBAs and developers with Python and AI/ML familiarity."
 },
 
 
    {
-    Issued: "MongoDB Database",
-    href: "https://www.credly.com/badges/da73279c-138f-4954-bf2f-5aeba4dd5875",
-    title: "MongoDB Certified Associate Database Administrator",
-    logoUrl: "https://images.credly.com/size/680x680/images/395e38b5-2a2e-49aa-9416-df8f5619399d/image.png",
+    Issued: "LINKEDIN",
+    href: "https://drive.google.com/file/d/1t4v2U2LeTwIrqykx2fPV9YsfV_d3jy7a/view?usp=drivesdk",
+    title: "SYSTEM Administrator",
+    logoUrl: "\Screenshot 2025-09-19 142150.png",
     date: "June 2025",
     description: "MongoDB database implementation, configuration, and administration skills including CRUD operations and replication."
   },
 
   {
-    Issued: "Oracle Cloud",
-    href: "https://catalog-education.oracle.com/pls/certview/sharebadge?id=41F45AEE1A4D80F538C7162AFC7C016C71BB3F0C25DCEFB7DAE6D764751C6BBD",
-    title: "Oracle Cloud Certified AI Foundations Associate",
-    logoUrl: "https://brm-workforce.oracle.com/pdf/certview/images/OCI25AICFAV1.png",
+    Issued: "LINKEDIN",
+    href: "https://drive.google.com/file/d/1_kuCwYk0gVh0GNwc8VEzY9CC05-ZUAzg/view?usp=drivesdk",
+    title: "PROJECT MANAGEMENT FOR PROFESSIONALS",
+    logoUrl: "\Screenshot 2025-09-19 142224.png",
     date: "August 2025",
     description: "Foundational AI, ML, and Generative AI knowledge within Oracle Cloud Infrastructure environment."
   },
  
-  
-  {
-    Issued: "Oracle Cloud",
-    href: "https://catalog-education.oracle.com/pls/certview/sharebadge?id=1B2DBEEAA71F5E4FEB8016398AD0C2F1526BCB285AF4F93C9510E9361208814F",
-    title: "Data Platform Certified Foundations Associate",
-    logoUrl: "https://brm-workforce.oracle.com/pdf/certview/images/OCI25DCFAV2.png",
-    date: "August 2025",
-    description: "This certification validates foundational knowledge of the core data management cloud services offered on the Oracle Cloud Infrastructure (OCI) platform."
-  },
-    
-  {
-    Issued: "MongoDB Atlas",
-    href: "https://www.credly.com/badges/da73279c-138f-4954-bf2f-5aeba4dd5875",
-    title: "MongoDB Certified Associate Atlas Administrator",
-    logoUrl: "https://images.credly.com/images/77a9f71b-6ee5-4378-8a51-9e91de54b950/image.png",
-    date: "June 2025",
-    description: "MongoDB Atlas cloud deployment management, security best practices, and performance optimization."
-  },
-  
-  {
-    Issued: "Oracle Cloud",
-    href: "https://catalog-education.oracle.com/ords/certview/sharebadge?id=F49248EB27FA087279A16F6A084F0EF04E4A3FC34C63334E5A9636D0C0F066ED",
-    title: "MySQL HeatWave Implementation Associate",
-    logoUrl: "https://brm-workforce.oracle.com/pdf/certview/images/MYSQLHWIMPOCA.png",
-    date: "August 2025",
-    description: "This certification validates foundational knowledge of the core data management cloud services offered on the Oracle Cloud Infrastructure (OCI) platform."
-  },
+
 
 ]
 } as const;

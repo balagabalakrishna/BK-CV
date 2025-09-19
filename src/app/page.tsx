@@ -58,7 +58,7 @@ const projectMap = {
               <BlurFadeText
                 className="max-w-[600px] md:text-xl"
                 delay={BLUR_FADE_DELAY}
-                text="22, Indian, Thriving in Life's Chaos"
+                text="21, Indian, Data Scientist & AI Engineer"
               />
             </div>
             <BlurFade delay={BLUR_FADE_DELAY}>
