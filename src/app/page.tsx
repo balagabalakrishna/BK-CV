@@ -23,23 +23,23 @@ const projectMap = {
   All: DATA.projects,
   Frontend: DATA.projects.filter((p: any) =>
     Array.isArray(p.type)
-      ? p.type.map((t: string) => t.toLowerCase()).includes("frontend")
-      : p.type?.toLowerCase() === "frontend"
+      ? p.type.map((t: string) => t.trim().toLowerCase()).includes("frontend")
+      : p.type?.trim().toLowerCase() === "frontend"
   ),
   Fullstack: DATA.projects.filter((p: any) =>
     Array.isArray(p.type)
-      ? p.type.map((t: string) => t.toLowerCase()).includes("fullstack")
-      : p.type?.toLowerCase() === "fullstack"
+      ? p.type.map((t: string) => t.trim().toLowerCase()).includes("fullstack")
+      : p.type?.trim().toLowerCase() === "fullstack"
   ),
   AI: DATA.projects.filter((p: any) =>
     Array.isArray(p.type)
-      ? p.type.map((t: string) => t.toLowerCase()).includes("AI")
-      : p.type?.toLowerCase() === "AI"
+      ? p.type.map((t: string) => t.trim().toLowerCase()).includes("ai")
+      : p.type?.trim().toLowerCase() === "ai"
   ),
   Datascience: DATA.projects.filter((p: any) =>
     Array.isArray(p.type)
-      ? p.type.map((t: string) => t.toLowerCase()).includes(" Datascience")
-      : p.type?.toLowerCase() === "Datascience"
+      ? p.type.map((t: string) => t.trim().toLowerCase()).includes("datascience")
+      : p.type?.trim().toLowerCase() === "datascience"
   ),
 };
 
@@ -58,7 +58,7 @@ const projectMap = {
               <BlurFadeText
                 className="max-w-[600px] md:text-xl"
                 delay={BLUR_FADE_DELAY}
-                text="21, Indian, Data Scientist & AI Engineer"
+                text="21, Indian, Data Scientist+ & AI Engineer"
               />
             </div>
             <BlurFade delay={BLUR_FADE_DELAY}>

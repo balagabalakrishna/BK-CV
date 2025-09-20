@@ -98,7 +98,7 @@ export const DATA = {
     {
  "title": "CODE NEST - Code Search, Connected by AI.",
  "href": "https://reposense.framer.website/",
- "dates": "August 2025 ",
+ "dates": "December 2024 ",
  "active": true,
  "type": "AI",
  "description": "Go beyond text matching. Use AI-powered semantic search to explore your codebase by purpose and functionality, making it effortless to discover how to implement a feature without knowing the exact naming convention.",
@@ -133,9 +133,9 @@ export const DATA = {
   {
  "title": "Blinkit Sales Analysis and Time Series Forecasting",
  "href": "https://reposense.framer.website/",
- "dates": "August 2025 ",
+ "dates": "January 2025 ",
  "active": true,
- "type": "AI",
+ "type": "Datascience",
  "description": "This project involved analyzing historical sales data to build a time series forecasting model that predicts future product demand. By identifying key trends and seasonal patterns, the model provides Blinkit with actionable insights to optimize inventory management, reduce waste, and ensure product availability for customers.",
  "technologies": [
    "Python",
@@ -175,7 +175,7 @@ export const DATA = {
  "href": "https://reposense.framer.website/",
  "dates": " upcoming ",
  "active": true,
- "type": "AI",
+ "type": "Fullstack",
  "description": "Spearheaded a project management initiative to build an accessible KYC solution tailored for low-connectivity environments and users with varying digital literacy. My role involved defining project scope, managing the product backlog, prioritizing user-centric features like voice-assisted navigation and offline functionality, and ensuring on-time delivery. The project successfully enhanced financial inclusion by making digital verification processes more accessible.",
  "technologies": [
    "HTML",
@@ -210,10 +210,10 @@ export const DATA = {
 
   {
  "title": "Land Gateway - Hyderabad's Direct Real Estate Portal",
- "href": "https://reposense.framer.website/",
+ "href": "https://land-gateway.vercel.app/",
  "dates": "August 2025 ",
  "active": true,
- "type": "AI",
+ "type": "Frontend",
  "description": "Land Gateway is a direct-to-owner real estate platform helping users find their dream home or plot in Hyderabad without brokerage fees. We connect buyers directly with verified property dealers and owners, acting as a secure middleman to ensure trusted and transparent transactions.",
  "technologies": [
    "HTML",
@@ -231,12 +231,12 @@ export const DATA = {
  links: [
    {
      type: "Website",
-     href: " ",
+     href: " https://land-gateway.vercel.app/",
      icon: <Icons.globe className="size-3" />
    },
    {
      type: "Source",
-     href: "/Screenshot 2025-09-19 153733.png",
+     href: "https://github.com/balagabalakrishna/Land-Gateway",
      icon: <Icons.github className="size-3" />
    }
  ],
@@ -246,10 +246,10 @@ export const DATA = {
 
   {
  "title": "Rank MIND - A Multiple LLM Models response analysis tool",
- "href": "https://reposense.framer.website/",
- "dates": "August 2025 ",
+ "href": "",
+ "dates": "ongoing",
  "active": true,
- "type": "Fullstack",
+ "type": "AI",
  "description": "RankMind AI is a streamlined web application that empowers users to instantly compare responses from five leading AI models—including GPT-4, Gemini, and Llama 3.1—side-by-side. It intelligently ranks the best output based on accuracy and relevance, cutting through the noise to deliver the most reliable answer for any query.",
  "technologies": [
    "Python",
@@ -275,7 +275,7 @@ export const DATA = {
    },
    {
      type: "Source",
-     href: "https://github.com/balagabalakrishna/CODE-SNIPPET-SEARCH-",
+     href: "https://github.com/balagabalakrishna/Rank__mind_AI",
      icon: <Icons.github className="size-3" />
    }
  ],
@@ -286,8 +286,8 @@ export const DATA = {
 
  {
  "title": "Aura - Suggests a helpful presence that's always around you.",
- "href": "https://reposense.framer.website/",
- "dates": "August 2025 ",
+ "href": "https://vibe-aura-assistant.lovable.app",
+ "dates": "ongoing",
  "active": true,
  "type": "AI",
  "description": "Chat Assistant is a conversational AI partner built with the Gemini API, designed to be your go-to for daily tasks. It helps you draft emails, get homework help, brainstorm ideas, and plan your day, all through a simple and intuitive chat interface. It's a smart, responsive tool that makes productivity effortless.",
@@ -307,12 +307,12 @@ export const DATA = {
  links: [
    {
      type: "Website",
-     href: " ",
+     href: "https://vibe-aura-assistant.lovable.app ",
      icon: <Icons.globe className="size-3" />
    },
    {
      type: "Source",
-     href: "https://github.com/balagabalakrishna/CODE-SNIPPET-SEARCH-",
+     href: "https://github.com/balagabalakrishna/vibe-aura-assistant",
      icon: <Icons.github className="size-3" />
    }
  ],
